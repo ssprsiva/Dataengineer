@@ -1,0 +1,13 @@
+{
+	"name": "web2datalake_source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://cdn.rebrickable.com/media/downloads/themes.csv.gz?1640288240.962671",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

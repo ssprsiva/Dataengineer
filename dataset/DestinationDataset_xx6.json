@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_xx6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "web2datalake_target",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "webThemes.parquet",
+				"fileSystem": "datalake"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
