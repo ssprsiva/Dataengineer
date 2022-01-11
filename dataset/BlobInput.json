@@ -5,6 +5,12 @@
 			"referenceName": "ADFblob1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"blobinput_para": {
+				"type": "string",
+				"defaultValue": "1"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
