@@ -89,7 +89,10 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "DelimitedTextSink"
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						}
 					},
 					"enableStaging": false,
 					"dataIntegrationUnits": 0
